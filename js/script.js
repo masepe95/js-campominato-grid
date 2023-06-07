@@ -29,6 +29,7 @@ playButton.addEventListener('click', function() {
             
             cell.addEventListener('click', () => {
                 cell.classList.toggle('clicked');
+                console.log(i + 1);
             });
 
             gridField.appendChild(cell);
