@@ -1,11 +1,11 @@
-.blocco-grande {
+.grid {
 	width: 700px;
 	height: 700px;
 	border: 1px solid white;
 	display: flex;
 	flex-wrap: wrap;
 }
-.blocco-piccolo {
+.cell {
 	width: calc(100% / 10);
 	height: calc(100% / 10);
 	border: 2px solid white;
@@ -16,8 +16,8 @@
 	cursor: pointer;
 }
 
-.blocco-piccolo.active {
-	background-color: red;
+.cell.clicked {
+	background-color: dodgerblue;
 }
 main {
 	height: calc(100vh);
