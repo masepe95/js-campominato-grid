@@ -22,6 +22,7 @@ const createCell = () => {
 }
 // Costruiamo la griglia in DOM al click del bottone
 playButton.addEventListener('click', function() {
+        gridField.innerHTML = '';
         for (let i = 0; i < easyGame; i++){
             const cell = createCell();
 
