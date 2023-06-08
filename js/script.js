@@ -16,7 +16,7 @@ const easyGame = 100;
 //funzione arrow per creare cell
 const createCell = () => {
     const cell = document.createElement('div');
-    cell.className = 'cellEasy';
+    cell.className = 'cell';
 
     return cell;
 }
